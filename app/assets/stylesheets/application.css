@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+	font-family: 'Playfair Display', serif;
+}
+
+body
+{
+background: 
+#87CEFA ; 
+}

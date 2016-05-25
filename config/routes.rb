@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get "about_us" => 'pages#about_us'
+
+  get "contact_us" => 'pages#contact_us'
+
   resources :books
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
